@@ -1,0 +1,42 @@
+.logo {
+    width: 300px;
+}
+
+.ice {
+    top: -300px;
+    left: -162px;
+}
+
+.accordion-button {
+    color: var(--white) !important;
+    border-color: var(--white);
+    background: var(--bluepen) !important;
+}
+
+.accordion-button::after {
+    content: "";
+    background-image: url("../img/arrow-down.png") !important;
+}
+
+.accordion-button:active,
+.accordion-button:focus {
+    border: none !important;
+}
+
+/* .card-box {
+    z-index: 1;
+} */
+
+.blue:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(20%);
+    background-color: var(--darkblue);
+}
+
+.titles {
+    color: var(--white);
+}
