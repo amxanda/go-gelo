@@ -9,16 +9,13 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background: var(--lightgrey);
-}
-
 :root {
     --darkblue: #222A43;
     --bluepen: #48789A;
     --blue: #33809F;
     --blueice: #53C2BE;
     --lightblue: #CBE4ED;
+    --grey: #ADB5BD;
     --lightgrey: #FAFAFA;
     --white: #FFFFFF;
 
@@ -51,17 +48,22 @@ h1:after {
     margin: auto;
 }
 
-/* backgrounds */
-.white {
-    background: #ffffff65;
+/* backgrounds body */
+.white-shadow {
+    background: #ffffff70;
     box-shadow: var(--shadow);
-    z-index: 2;
 }
 
+.white {
+    background: #ffffff70;
+}
+
+/* backgrounds section-2 main page */
 .blue {
     background: #cbe4ed98;
 }
 
+/* backgrounds footer */
 .darkblue {
     background-color: var(--darkblue);
 }
@@ -69,6 +71,7 @@ h1:after {
 /* header */
 .header {
     background: #ffffffbb;
+    box-shadow: var(--shadow);
 }
 
 .text-logo {
@@ -96,6 +99,7 @@ h1:after {
     background: var(--darkblue);
     color: var(--white);
     list-style: none;
+    box-shadow: var(--shadow);
 }
 
 .footer h3 {
@@ -107,13 +111,13 @@ h1:after {
 }
 
 hr {
-    color: var(--blue-ice);
-    border-bottom: 2px solid var(--blueice);
+    color: var(--blueice);
+    border: 2px solid var(--blueice);
 }
 
 .fa-brands,
 .fa-solid {
-    color: var(--blue-ice);
+    color: var(--blueice);
 }
 
 a {

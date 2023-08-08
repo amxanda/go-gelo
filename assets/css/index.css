@@ -3,8 +3,12 @@
 }
 
 .ice {
-    top: -300px;
+    top: -364px;
     left: -162px;
+}
+
+.accordion-body {
+    color: var(--blue);
 }
 
 .accordion-button {
@@ -22,10 +26,6 @@
 .accordion-button:focus {
     border: none !important;
 }
-
-/* .card-box {
-    z-index: 1;
-} */
 
 .blue:after {
     content: "";
