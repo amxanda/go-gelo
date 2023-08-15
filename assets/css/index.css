@@ -19,7 +19,7 @@
 
 .accordion-button::after {
     content: "";
-    background-image: url("../img/arrow-down.png") !important;
+    background-image: url('../img/arrow-down.png') !important;
 }
 
 .accordion-button:active,

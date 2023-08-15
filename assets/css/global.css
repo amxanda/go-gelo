@@ -1,11 +1,16 @@
-@import url('https://fonts.cdnfonts.com/css/sinkin-sans-400-regular?styles=16766,16759,16767,16769,16771');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+/* @font-face {
+    font-family: 'Sinkin Sans 400 Regular 400';
+    src: local(Sinkin Sans), url(../font/SinkinSans-400Regular.otf);
+} */
 
 * {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Sinkin Sans 400 Regular 400', sans-serif;
+    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 
