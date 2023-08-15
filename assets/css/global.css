@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
-/* @font-face {
-    font-family: 'Sinkin Sans 400 Regular 400';
-    src: local(Sinkin Sans), url(../font/SinkinSans-400Regular.otf);
-} */
-
 * {
     padding: 0;
     margin: 0;
@@ -23,14 +18,12 @@
     --grey: #ADB5BD;
     --lightgrey: #FAFAFA;
     --white: #FFFFFF;
-
     --tran-02: all 0.2s ease;
     --tran-03: all 0.3s ease;
     --tran-04: all 0.4s ease;
     --tran-05: all 0.5s ease;
     --tran-06: all 0.6s ease;
     --tran-07: all 0.7s ease;
-
     --shadow: 0 0 20px 1px rgb(0 0 0 / 10%);
 }
 
