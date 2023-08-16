@@ -64,13 +64,17 @@ h4 {
     border: 2px solid var(--white);
 }
 
+.modal-body {
+    background: var(--lightgrey);
+    color: var(--darkblue);
+}
+
 .modal-img {
-    width: 15rem;
+    width: 16rem;
 }
 
 /* Google Maps */
 iframe {
-
     height: 400px;
     border: 3px solid var(--white);
 }
